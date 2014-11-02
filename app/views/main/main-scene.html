@@ -1,0 +1,21 @@
+<div id="main">
+	<div class="palm-page-header">
+		<div class="header-icon custom"></div>
+		<div class="header-text">
+			<span x-mojo-loc=''>Latest Promo Codes</span>
+		</div>
+		<div class="header-sliding-toggle" style="right:10px;top:10px">
+			<div x-mojo-element="Spinner" id="waiting_spinner_top"></div>
+		</div>
+	</div>
+
+	<div class="palm-list">	
+		<div class="palm-row" x-mojo-tap-highlight="momentary">
+			<div class="palm-row-wrapper">
+				<div x-mojo-element="ListSelector" id="countryselector"></div>
+			</div>
+		</div>
+	</div>
+
+	<div x-mojo-element="List" id="codeslist"></div>
+</div>

@@ -1,0 +1,45 @@
+<div id="main">
+	<div class="palm-page-header">
+		<div class="header-icon custom"></div>
+		<div class="header-text">
+			<span x-mojo-loc=''>Submit Promo Code</span>
+		</div>
+		<div class="header-sliding-toggle" style="right:10px;top:10px">
+			<div x-mojo-element="Spinner" id="waiting_spinner_top"></div>
+		</div>
+	</div>
+	
+	<center>
+		<div style="font-size:14px"><br>You can also submit Promo Codes directly from<br>your computer on: <a href="http://promocodes.omoco.de">http://promocodes.omoco.de</a><br><br></div>
+	</center>
+	
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc=''>Promo Code:</div>
+			<div class="palm-list">
+		  		<div class="palm-row single">
+					<div class="palm-row-wrapper textfield-group" x-mojo-focus-highlight="true">
+						<div class="title">
+				   			<div id="promocode" name="textField"  x-mojo-element="TextField"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="palm-group">
+		<div class="palm-group-title" x-mojo-loc=''>Select Country:</div>
+			<div class="palm-list">
+		  		<div class="palm-row single">
+		     		<div class="palm-row single" x-mojo-tap-highlight="momentary">
+						<div class="palm-row-wrapper">
+							<div id="countryselector" x-mojo-element="ListSelector"></div>   
+						</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div x-mojo-element="Button" id="submit"></div>
+	<div id="cancel" class="palm-button buttonfloat" x-mojo-tap-highlight="momentary">Cancel</div>
+</div>

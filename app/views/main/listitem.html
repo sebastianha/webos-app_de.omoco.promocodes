@@ -1,0 +1,30 @@
+<div class="palm-row" style="padding-top:3px;padding-bottom:0px" x-mojo-tap-highlight="momentary">
+	<div class="palm-row-wrapper" style="padding-left:2px;padding-right:4px">
+		<table border=0 cellpadding=0 cellspacing="0">
+			<tr>
+				<td rowspan="2" width=58>
+					<img src="http://cdn.downloads.palm.com/public/#{-icon}" width=48 height=48>
+				</td>
+				<td>
+					<div style="white-space: nowrap; width: 250px; overflow: hidden; text-overflow: ellipsis;"> 
+					#{-name}
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td style="font-size:14px;color:grey">
+					<table border=0 cellpadding=0 cellspacing="0" width=100%>
+						<tr>
+							<td>
+								Valid: #{-validuntil} #{-country}
+							</td>
+							<td align=right>
+								<font style="color:green">#{-worked}</font> / <font style="color:red">-#{-workednot}</font>
+							</td>
+						</tr>
+					 </table>
+				</td>
+			</tr>
+		</table>
+	</div>
+</div>
