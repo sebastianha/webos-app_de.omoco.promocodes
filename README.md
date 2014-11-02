@@ -21,7 +21,10 @@ webOS App – Promo Codes (de.omoco.promocodes)
 
 ## Icon
 
-![Screenshot](/icon.png?raw=true "Icon")
+![Screenshot](/icon_32.png?raw=true "Icon")
+![Screenshot](/icon_48.png?raw=true "Icon")
+![Screenshot](/icon_64.png?raw=true "Icon")
+![Screenshot](/icon_256.png?raw=true "Icon")
 
 ## Screenshots
 
